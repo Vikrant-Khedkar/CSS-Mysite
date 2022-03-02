@@ -1,3 +1,25 @@
-h1{
-    color:red
+body{
+    margin:0;
+    text-align: center;
 }
+h1{
+    margin-top:0;
+}
+.top-container{
+    background-color: #E4F9F5;
+}
+.middle-container{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+
+}
+.bottom-container{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+}
+.pro{
+    text-decoration: underline;
+}
+
