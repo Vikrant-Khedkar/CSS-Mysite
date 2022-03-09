@@ -1,17 +1,20 @@
 body{
     margin:0;
     text-align: center;
+    font-family: Helvetica, sans-serif;
 }
 h1{
-    margin-top:0;
+    margin-top:0
 }
 .top-container{
-    background-color: #E4F9F5;
+    background-color: aquamarine;
+    position: relative;
+    padding-top:100px ;
 }
 .middle-container{
     width: 200px;
     height: 200px;
-    background-color: aquamarine;
+    background-color: red;
 
 }
 .bottom-container{
@@ -22,4 +25,14 @@ h1{
 .pro{
     text-decoration: underline;
 }
+.bottom-cloud{
+    position:absolute;
+    left:300px;
+    bottom: 300px;
+}
+.top-cloud{
+    position:absolute;
+   right: 300px;
+   top:50px;
 
+}
